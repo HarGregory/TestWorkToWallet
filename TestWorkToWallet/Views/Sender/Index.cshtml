@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Sender Client";
+}
+
+
+<div class="containerSender">
+    <h1>Sender Client</h1>
+    <textarea id="messageInput" maxlength="128" placeholder="Enter your message..."></textarea>
+    </br>
+    <input type="text" id="numberInput" placeholder="Enter your number..." inputmode="numeric" pattern="\d*" />
+    </br>
+    <button id="sendMessageButton" class="btn btn-primary">Send Message</button>
+    <div id="notifications"></div>
+</div>
+
+<script src="~/js/sender.js"></script>
+<script>
+    document.getElementById("numberInput").addEventListener("input", function (e) {
+        this.value = this.value.replace(/\D/g, '');
+    });
+</script>
+
+

@@ -1,0 +1,624 @@
+2024-08-27 14:49:29.599 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/LastMinuteViewer/Index.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/RealTimeViewer/Index.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Sender/Index.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-27 14:49:29.647 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-27 14:49:29.648 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-27 14:49:29.648 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-27 14:49:29.654 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-27 14:49:30.104 +03:00 [DBG] Hosting starting
+2024-08-27 14:49:30.281 +03:00 [INF] User profile is available. Using 'C:\Users\grego\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 14:49:30.290 +03:00 [DBG] Reading data from file 'C:\Users\grego\AppData\Local\ASP.NET\DataProtection-Keys\key-0e401fec-f1e8-4205-bc36-455bf4618cda.xml'.
+2024-08-27 14:49:30.354 +03:00 [DBG] Reading data from file 'C:\Users\grego\AppData\Local\ASP.NET\DataProtection-Keys\key-588fcb7a-3b4b-4485-96be-1429d0aaf955.xml'.
+2024-08-27 14:49:30.373 +03:00 [DBG] Found key {0e401fec-f1e8-4205-bc36-455bf4618cda}.
+2024-08-27 14:49:30.378 +03:00 [DBG] Found key {588fcb7a-3b4b-4485-96be-1429d0aaf955}.
+2024-08-27 14:49:30.382 +03:00 [DBG] Considering key {0e401fec-f1e8-4205-bc36-455bf4618cda} with expiration date 2024-11-19 18:17:43Z as default key.
+2024-08-27 14:49:30.384 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-27 14:49:30.386 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-08-27 14:49:30.387 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-27 14:49:30.391 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-08-27 14:49:30.392 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-08-27 14:49:30.393 +03:00 [DBG] Using key {0e401fec-f1e8-4205-bc36-455bf4618cda} as the default key.
+2024-08-27 14:49:30.394 +03:00 [DBG] Key ring with default key {0e401fec-f1e8-4205-bc36-455bf4618cda} was loaded during application startup.
+2024-08-27 14:49:30.712 +03:00 [DBG] Loaded hosting startup assembly TestWorkToWallet
+2024-08-27 14:49:30.712 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-27 14:49:30.712 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-27 14:49:30.713 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 14:49:30.713 +03:00 [INF] Hosting environment: Development
+2024-08-27 14:49:30.713 +03:00 [INF] Content root path: C:\Users\grego\source\repos\TestWorkToWallet\TestWorkToWallet
+2024-08-27 14:49:30.713 +03:00 [DBG] Hosting started
+2024-08-27 14:49:30.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/ - null null
+2024-08-27 14:49:31.111 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-27 14:49:31.126 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.127 +03:00 [DBG] The request path / does not match a supported file type
+2024-08-27 14:49:31.150 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-08-27 14:49:31.152 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.HomeController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-27 14:49:31.153 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.HomeController.Index (TestWorkToWallet)'
+2024-08-27 14:49:31.154 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.HomeController.Index (TestWorkToWallet)'
+2024-08-27 14:49:31.169 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.HomeController (TestWorkToWallet).
+2024-08-27 14:49:31.170 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:31.170 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:31.171 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:31.172 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:31.172 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:31.174 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.HomeController (TestWorkToWallet)
+2024-08-27 14:49:31.175 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.HomeController (TestWorkToWallet)
+2024-08-27 14:49:31.178 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-27 14:49:31.182 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:31.185 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 4.8986ms.
+2024-08-27 14:49:31.252 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-27 14:49:31.323 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:31.326 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:31.327 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:31.329 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:31.330 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:31.330 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:31.331 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:31.331 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:31.331 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:31.332 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:31.332 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:31.332 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:31.333 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:31.333 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:31.333 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:31.354 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:31.358 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:31.372 +03:00 [INF] Executed ViewResult - view Index executed in 194.7585ms.
+2024-08-27 14:49:31.374 +03:00 [INF] Executed action TestWorkToWallet.Controllers.HomeController.Index (TestWorkToWallet) in 201.07ms
+2024-08-27 14:49:31.374 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.HomeController.Index (TestWorkToWallet)'
+2024-08-27 14:49:31.374 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:31.375 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:31.392 +03:00 [DBG] Connection ID "18374686506246733828" disconnecting.
+2024-08-27 14:49:31.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/lib/jquery/dist/jquery.min.js - null null
+2024-08-27 14:49:31.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/TestWorkToWallet.styles.css?v=5ooh8DurvSnbzB6GwQ6bjsC1qfqCMTs0lZWIdMyw44I - null null
+2024-08-27 14:49:31.406 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/css/site.css?v=FN60lwTm368zKd2prJxF9B8tSJ57ObJKpU_8QH8xmB8 - null null
+2024-08-27 14:49:31.410 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.410 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.412 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-08-27 14:49:31.414 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/ - 200 null text/html; charset=utf-8 482.0399ms
+2024-08-27 14:49:31.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-08-27 14:49:31.423 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.425 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-08-27 14:49:31.426 +03:00 [INF] The file /js/site.js was not modified
+2024-08-27 14:49:31.426 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.426 +03:00 [DBG] Handled. Status code: 304 File: /js/site.js
+2024-08-27 14:49:31.428 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-27 14:49:31.428 +03:00 [INF] The file /css/site.css was not modified
+2024-08-27 14:49:31.428 +03:00 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2024-08-27 14:49:31.428 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-27 14:49:31.428 +03:00 [DBG] Handled. Status code: 304 File: /css/site.css
+2024-08-27 14:49:31.428 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-27 14:49:31.428 +03:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-08-27 14:49:31.429 +03:00 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2024-08-27 14:49:31.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:31.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:31.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 14.1852ms
+2024-08-27 14:49:31.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 20.6273ms
+2024-08-27 14:49:31.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 8.1155ms
+2024-08-27 14:49:31.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/lib/jquery/dist/jquery.min.js - 304 null text/javascript 43.4009ms
+2024-08-27 14:49:31.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/css/site.css?v=FN60lwTm368zKd2prJxF9B8tSJ57ObJKpU_8QH8xmB8 - 304 null text/css 31.6938ms
+2024-08-27 14:49:31.436 +03:00 [DBG] Connection ID "18014398514582257665" disconnecting.
+2024-08-27 14:49:31.436 +03:00 [DBG] Connection ID "18302628903618871297" disconnecting.
+2024-08-27 14:49:31.436 +03:00 [DBG] Connection ID "18086456108620185601" disconnecting.
+2024-08-27 14:49:31.436 +03:00 [DBG] Connection ID "18302628890733969409" disconnecting.
+2024-08-27 14:49:31.441 +03:00 [DBG] Connection ID "18374686506246733830" disconnecting.
+2024-08-27 14:49:31.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 9.4496ms
+2024-08-27 14:49:31.444 +03:00 [INF] Sending file. Request path: '/TestWorkToWallet.styles.css'. Physical path: 'C:\Users\grego\source\repos\TestWorkToWallet\TestWorkToWallet\obj\Debug\net8.0\scopedcss\bundle\TestWorkToWallet.styles.css'
+2024-08-27 14:49:31.446 +03:00 [DBG] Connection ID "18158513702658113537" disconnecting.
+2024-08-27 14:49:31.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/TestWorkToWallet.styles.css?v=5ooh8DurvSnbzB6GwQ6bjsC1qfqCMTs0lZWIdMyw44I - 200 1134 text/css 52.6737ms
+2024-08-27 14:49:31.515 +03:00 [DBG] Connection ID "18302628912208805889" disconnecting.
+2024-08-27 14:49:31.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.9755ms
+2024-08-27 14:49:31.609 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-08-27 14:49:31.611 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:31.632 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\grego\source\repos\TestWorkToWallet\TestWorkToWallet\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-08-27 14:49:31.646 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 36.7124ms
+2024-08-27 14:49:33.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/Sender - null null
+2024-08-27 14:49:33.627 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:33.627 +03:00 [DBG] The request path /Sender does not match a supported file type
+2024-08-27 14:49:33.630 +03:00 [DBG] 1 candidate(s) found for the request path '/Sender'
+2024-08-27 14:49:33.630 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Sender'
+2024-08-27 14:49:33.631 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:33.631 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:33.635 +03:00 [INF] Route matched with {action = "Index", controller = "Sender"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet).
+2024-08-27 14:49:33.635 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:33.635 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:33.635 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:33.635 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:33.635 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:33.636 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:33.637 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:33.637 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Sender'.
+2024-08-27 14:49:33.639 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:33.640 +03:00 [DBG] The view path '/Views/Sender/Index.cshtml' was found in 2.0595ms.
+2024-08-27 14:49:33.645 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Sender'.
+2024-08-27 14:49:33.647 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:33.647 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:33.647 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:33.647 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:33.647 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:33.647 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:33.647 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:33.647 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:33.648 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:33.648 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:33.648 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:33.648 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:33.648 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:33.648 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:33.648 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:33.649 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:33.649 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:33.649 +03:00 [INF] Executed ViewResult - view Index executed in 12.0478ms.
+2024-08-27 14:49:33.650 +03:00 [INF] Executed action TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet) in 13.9627ms
+2024-08-27 14:49:33.650 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:33.650 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:33.650 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:33.650 +03:00 [DBG] Connection ID "18014398510287290369" disconnecting.
+2024-08-27 14:49:33.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/Sender - 200 null text/html; charset=utf-8 32.1745ms
+2024-08-27 14:49:33.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/js/sender.js - null null
+2024-08-27 14:49:33.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:33.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:33.657 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:33.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.4439ms
+2024-08-27 14:49:33.659 +03:00 [DBG] Connection ID "18158513728427917313" disconnecting.
+2024-08-27 14:49:33.676 +03:00 [DBG] Connection ID "18014398510287290371" disconnecting.
+2024-08-27 14:49:33.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.908ms
+2024-08-27 14:49:33.698 +03:00 [INF] Sending file. Request path: '/js/sender.js'. Physical path: 'C:\Users\grego\source\repos\TestWorkToWallet\TestWorkToWallet\wwwroot\js\sender.js'
+2024-08-27 14:49:33.699 +03:00 [DBG] Connection ID "18230571322465845249" disconnecting.
+2024-08-27 14:49:33.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/js/sender.js - 200 2809 text/javascript 41.4809ms
+2024-08-27 14:49:33.747 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:33.748 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:33.748 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:33.758 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:34.121 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/Sender - null null
+2024-08-27 14:49:34.124 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.124 +03:00 [DBG] The request path /Sender does not match a supported file type
+2024-08-27 14:49:34.126 +03:00 [DBG] 1 candidate(s) found for the request path '/Sender'
+2024-08-27 14:49:34.126 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Sender'
+2024-08-27 14:49:34.126 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.126 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.126 +03:00 [INF] Route matched with {action = "Index", controller = "Sender"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet).
+2024-08-27 14:49:34.126 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:34.126 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.126 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:34.126 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:34.127 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.127 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:34.127 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:34.128 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'Sender'.
+2024-08-27 14:49:34.128 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:34.128 +03:00 [DBG] The view path '/Views/Sender/Index.cshtml' was found in 0.3077ms.
+2024-08-27 14:49:34.128 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Sender'.
+2024-08-27 14:49:34.129 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.129 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.129 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.129 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.129 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.129 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.130 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:34.130 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:34.130 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:34.130 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:34.130 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:34.130 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:34.130 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:34.130 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:34.130 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:34.131 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:34.131 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:34.132 +03:00 [INF] Executed ViewResult - view Index executed in 4.2482ms.
+2024-08-27 14:49:34.132 +03:00 [INF] Executed action TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet) in 4.9879ms
+2024-08-27 14:49:34.132 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.132 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:34.132 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:34.132 +03:00 [DBG] Connection ID "17942340924839297025" disconnecting.
+2024-08-27 14:49:34.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/Sender - 200 null text/html; charset=utf-8 11.4475ms
+2024-08-27 14:49:34.136 +03:00 [DBG] Connection ID "18230571322465845251" disconnecting.
+2024-08-27 14:49:34.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:34.139 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:34.141 +03:00 [DBG] Connection ID "18230571296696041477" disconnecting.
+2024-08-27 14:49:34.141 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.4906ms
+2024-08-27 14:49:34.144 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:34.147 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 399.8008ms
+2024-08-27 14:49:34.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.904ms
+2024-08-27 14:49:34.162 +03:00 [DBG] Connection ID "18014398514582257667" disconnecting.
+2024-08-27 14:49:34.162 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:34.163 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.163 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:34.164 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:34.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/RealTimeViewer - null null
+2024-08-27 14:49:34.535 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.535 +03:00 [DBG] The request path /RealTimeViewer does not match a supported file type
+2024-08-27 14:49:34.535 +03:00 [DBG] 1 candidate(s) found for the request path '/RealTimeViewer'
+2024-08-27 14:49:34.535 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/RealTimeViewer'
+2024-08-27 14:49:34.535 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.535 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.536 +03:00 [INF] Route matched with {action = "Index", controller = "RealTimeViewer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet).
+2024-08-27 14:49:34.537 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:34.537 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.537 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:34.537 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:34.537 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.537 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:34.537 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:34.537 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'RealTimeViewer'.
+2024-08-27 14:49:34.539 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:34.539 +03:00 [DBG] The view path '/Views/RealTimeViewer/Index.cshtml' was found in 1.1548ms.
+2024-08-27 14:49:34.540 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'RealTimeViewer'.
+2024-08-27 14:49:34.541 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.541 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.541 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.541 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.541 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.541 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.541 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:34.542 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:34.542 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:34.542 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:34.542 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:34.542 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:34.542 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:34.542 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:34.542 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:34.560 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:34.560 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:34.560 +03:00 [INF] Executed ViewResult - view Index executed in 23.0813ms.
+2024-08-27 14:49:34.561 +03:00 [INF] Executed action TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet) in 23.8798ms
+2024-08-27 14:49:34.561 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.561 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:34.561 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:34.561 +03:00 [DBG] Connection ID "18302628903618871301" disconnecting.
+2024-08-27 14:49:34.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/RealTimeViewer - 200 null text/html; charset=utf-8 28.6014ms
+2024-08-27 14:49:34.565 +03:00 [DBG] Connection ID "18230571313875910657" disconnecting.
+2024-08-27 14:49:34.565 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:34.566 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 403.4161ms
+2024-08-27 14:49:34.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:34.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/js/realTimeViewer.js?v=KTa39h0heaAnwEbKeK3zEoPqZjdzYhQ355XeB7W_vtg - null null
+2024-08-27 14:49:34.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:34.569 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.569 +03:00 [INF] The file /js/realTimeViewer.js was not modified
+2024-08-27 14:49:34.570 +03:00 [DBG] Handled. Status code: 304 File: /js/realTimeViewer.js
+2024-08-27 14:49:34.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.8927ms
+2024-08-27 14:49:34.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/js/realTimeViewer.js?v=KTa39h0heaAnwEbKeK3zEoPqZjdzYhQ355XeB7W_vtg - 304 null text/javascript 0.9944ms
+2024-08-27 14:49:34.589 +03:00 [DBG] Connection ID "18086456117210120193" disconnecting.
+2024-08-27 14:49:34.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5933ms
+2024-08-27 14:49:34.593 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:34.593 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.593 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:34.594 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:34.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/LastMinuteViewer - null null
+2024-08-27 14:49:34.949 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.949 +03:00 [DBG] The request path /LastMinuteViewer does not match a supported file type
+2024-08-27 14:49:34.949 +03:00 [DBG] 1 candidate(s) found for the request path '/LastMinuteViewer'
+2024-08-27 14:49:34.949 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/LastMinuteViewer'
+2024-08-27 14:49:34.949 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.949 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.951 +03:00 [INF] Route matched with {action = "Index", controller = "LastMinuteViewer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet).
+2024-08-27 14:49:34.951 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:34.951 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.951 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:34.951 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:34.951 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:34.951 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:34.953 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:34.954 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'LastMinuteViewer'.
+2024-08-27 14:49:34.955 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:34.955 +03:00 [DBG] The view path '/Views/LastMinuteViewer/Index.cshtml' was found in 0.9412ms.
+2024-08-27 14:49:34.957 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'LastMinuteViewer'.
+2024-08-27 14:49:34.958 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.958 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.958 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.958 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:34.958 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:34.958 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:34.958 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:34.958 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:34.958 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:34.958 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:34.958 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:34.959 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:34.959 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:34.959 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:34.959 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:34.978 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:34.978 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:34.979 +03:00 [INF] Executed ViewResult - view Index executed in 24.4932ms.
+2024-08-27 14:49:34.979 +03:00 [INF] Executed action TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet) in 27.3369ms
+2024-08-27 14:49:34.979 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:34.979 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:34.979 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:34.979 +03:00 [DBG] Connection ID "18086456117210120195" disconnecting.
+2024-08-27 14:49:34.979 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/LastMinuteViewer - 200 null text/html; charset=utf-8 33.5899ms
+2024-08-27 14:49:34.983 +03:00 [DBG] Connection ID "18230571313875910659" disconnecting.
+2024-08-27 14:49:34.983 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:34.984 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 390.8389ms
+2024-08-27 14:49:34.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:34.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:34.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/js/lastMinuteViewer.js?v=s5w8PzCfKzwV-rh_oBj3zZxjYmSHh_ORYn1tobe8Azk - null null
+2024-08-27 14:49:34.987 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:34.987 +03:00 [DBG] Connection ID "17942340924839297027" disconnecting.
+2024-08-27 14:49:34.987 +03:00 [INF] The file /js/lastMinuteViewer.js was not modified
+2024-08-27 14:49:34.988 +03:00 [DBG] Handled. Status code: 304 File: /js/lastMinuteViewer.js
+2024-08-27 14:49:34.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.0906ms
+2024-08-27 14:49:34.989 +03:00 [DBG] Connection ID "17870283330801369089" disconnecting.
+2024-08-27 14:49:34.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/js/lastMinuteViewer.js?v=s5w8PzCfKzwV-rh_oBj3zZxjYmSHh_ORYn1tobe8Azk - 304 null text/javascript 2.6845ms
+2024-08-27 14:49:35.008 +03:00 [DBG] Connection ID "18302628912208805893" disconnecting.
+2024-08-27 14:49:35.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.4395ms
+2024-08-27 14:49:35.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/RealTimeViewer - null null
+2024-08-27 14:49:35.518 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:35.518 +03:00 [DBG] The request path /RealTimeViewer does not match a supported file type
+2024-08-27 14:49:35.518 +03:00 [DBG] 1 candidate(s) found for the request path '/RealTimeViewer'
+2024-08-27 14:49:35.518 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/RealTimeViewer'
+2024-08-27 14:49:35.518 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.518 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.518 +03:00 [INF] Route matched with {action = "Index", controller = "RealTimeViewer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet).
+2024-08-27 14:49:35.519 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:35.519 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:35.519 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:35.519 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:35.519 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:35.519 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:35.519 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:35.519 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'RealTimeViewer'.
+2024-08-27 14:49:35.519 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:35.519 +03:00 [DBG] The view path '/Views/RealTimeViewer/Index.cshtml' was found in 0.1898ms.
+2024-08-27 14:49:35.520 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'RealTimeViewer'.
+2024-08-27 14:49:35.521 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:35.521 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:35.521 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:35.521 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:35.521 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:35.521 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:35.522 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:35.522 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:35.522 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:35.522 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:35.522 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:35.522 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:35.522 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:35.522 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:35.522 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:35.522 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:35.523 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:35.523 +03:00 [INF] Executed ViewResult - view Index executed in 3.9715ms.
+2024-08-27 14:49:35.523 +03:00 [INF] Executed action TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet) in 4.3358ms
+2024-08-27 14:49:35.523 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.523 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:35.523 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:35.523 +03:00 [DBG] Connection ID "18086456104325218307" disconnecting.
+2024-08-27 14:49:35.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/RealTimeViewer - 200 null text/html; charset=utf-8 7.7661ms
+2024-08-27 14:49:35.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:35.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:35.532 +03:00 [DBG] Connection ID "18014398514582257669" disconnecting.
+2024-08-27 14:49:35.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.831ms
+2024-08-27 14:49:35.541 +03:00 [DBG] Connection ID "18230571296696041479" disconnecting.
+2024-08-27 14:49:35.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.6431ms
+2024-08-27 14:49:35.572 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:35.573 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:35.573 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:35.574 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:35.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/RealTimeViewer - null null
+2024-08-27 14:49:35.909 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:35.909 +03:00 [DBG] The request path /RealTimeViewer does not match a supported file type
+2024-08-27 14:49:35.909 +03:00 [DBG] 1 candidate(s) found for the request path '/RealTimeViewer'
+2024-08-27 14:49:35.909 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/RealTimeViewer'
+2024-08-27 14:49:35.909 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.909 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.909 +03:00 [INF] Route matched with {action = "Index", controller = "RealTimeViewer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet).
+2024-08-27 14:49:35.909 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:35.909 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:35.910 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:35.910 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:35.910 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:35.910 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:35.910 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.RealTimeViewerController (TestWorkToWallet)
+2024-08-27 14:49:35.910 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'RealTimeViewer'.
+2024-08-27 14:49:35.910 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:35.910 +03:00 [DBG] The view path '/Views/RealTimeViewer/Index.cshtml' was found in 0.1468ms.
+2024-08-27 14:49:35.911 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'RealTimeViewer'.
+2024-08-27 14:49:35.911 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:35.911 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:35.911 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:35.912 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:35.912 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:35.912 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:35.912 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:35.912 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:35.912 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:35.912 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:35.912 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:35.912 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:35.913 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:35.913 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:35.913 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:35.913 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:35.913 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:35.914 +03:00 [INF] Executed ViewResult - view Index executed in 3.7027ms.
+2024-08-27 14:49:35.914 +03:00 [INF] Executed action TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet) in 4.1795ms
+2024-08-27 14:49:35.914 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.RealTimeViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:35.914 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:35.914 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:35.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/RealTimeViewer - 200 null text/html; charset=utf-8 8.5998ms
+2024-08-27 14:49:35.914 +03:00 [DBG] Connection ID "18230571309580943361" disconnecting.
+2024-08-27 14:49:35.918 +03:00 [DBG] Connection ID "18374686506246733832" disconnecting.
+2024-08-27 14:49:35.919 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:35.919 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 346.3871ms
+2024-08-27 14:49:35.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:35.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:35.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.7965ms
+2024-08-27 14:49:35.922 +03:00 [DBG] Connection ID "18158513719837982723" disconnecting.
+2024-08-27 14:49:35.930 +03:00 [DBG] Connection ID "18086456125800054785" disconnecting.
+2024-08-27 14:49:35.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2592ms
+2024-08-27 14:49:35.960 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:35.960 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:35.960 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:35.961 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:36.894 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/Sender - null null
+2024-08-27 14:49:36.897 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:36.897 +03:00 [DBG] The request path /Sender does not match a supported file type
+2024-08-27 14:49:36.897 +03:00 [DBG] 1 candidate(s) found for the request path '/Sender'
+2024-08-27 14:49:36.897 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Sender'
+2024-08-27 14:49:36.897 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:36.897 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:36.898 +03:00 [INF] Route matched with {action = "Index", controller = "Sender"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet).
+2024-08-27 14:49:36.898 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:36.898 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:36.898 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:36.898 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:36.898 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:36.898 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:36.898 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:36.898 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'Sender'.
+2024-08-27 14:49:36.898 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:36.898 +03:00 [DBG] The view path '/Views/Sender/Index.cshtml' was found in 0.1662ms.
+2024-08-27 14:49:36.899 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Sender'.
+2024-08-27 14:49:36.899 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:36.899 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:36.899 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:36.899 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:36.900 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:36.900 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:36.900 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:36.900 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:36.900 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:36.900 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:36.900 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:36.900 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:36.900 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:36.901 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:36.901 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:36.901 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:36.901 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:36.902 +03:00 [INF] Executed ViewResult - view Index executed in 3.3847ms.
+2024-08-27 14:49:36.902 +03:00 [INF] Executed action TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet) in 3.6522ms
+2024-08-27 14:49:36.902 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.SenderController.Index (TestWorkToWallet)'
+2024-08-27 14:49:36.902 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:36.902 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:36.902 +03:00 [DBG] Connection ID "18302628912208805897" disconnecting.
+2024-08-27 14:49:36.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/Sender - 200 null text/html; charset=utf-8 7.6383ms
+2024-08-27 14:49:36.906 +03:00 [DBG] Connection ID "18230571296696041481" disconnecting.
+2024-08-27 14:49:36.906 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:36.907 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 947.4262ms
+2024-08-27 14:49:36.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:36.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:36.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.803ms
+2024-08-27 14:49:36.910 +03:00 [DBG] Connection ID "18086456117210120197" disconnecting.
+2024-08-27 14:49:36.920 +03:00 [DBG] Connection ID "18158513711248048131" disconnecting.
+2024-08-27 14:49:36.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.4093ms
+2024-08-27 14:49:36.937 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44332/ws/messages - null null
+2024-08-27 14:49:36.937 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:36.937 +03:00 [DBG] The request path /ws/messages does not match a supported file type
+2024-08-27 14:49:36.939 +03:00 [INF] New WebSocket connection established.
+2024-08-27 14:49:39.753 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44332/api/send - application/json 72
+2024-08-27 14:49:39.753 +03:00 [DBG] POST requests are not supported
+2024-08-27 14:49:39.753 +03:00 [DBG] POST requests are not supported
+2024-08-27 14:49:39.753 +03:00 [DBG] 1 candidate(s) found for the request path '/api/send'
+2024-08-27 14:49:39.754 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.SenderController.SendMessage (TestWorkToWallet)' with route pattern 'api/send' is valid for the request path '/api/send'
+2024-08-27 14:49:39.754 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.SenderController.SendMessage (TestWorkToWallet)'
+2024-08-27 14:49:39.754 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.SenderController.SendMessage (TestWorkToWallet)'
+2024-08-27 14:49:39.759 +03:00 [INF] Route matched with {action = "SendMessage", controller = "Sender"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SendMessage(TestWorkToWallet.Models.Message) on controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet).
+2024-08-27 14:49:39.759 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:39.759 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:39.759 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:39.759 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:39.759 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:39.759 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:39.759 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.SenderController (TestWorkToWallet)
+2024-08-27 14:49:39.763 +03:00 [DBG] Attempting to bind parameter 'message' of type 'TestWorkToWallet.Models.Message' ...
+2024-08-27 14:49:39.764 +03:00 [DBG] Attempting to bind parameter 'message' of type 'TestWorkToWallet.Models.Message' using the name '' in request data ...
+2024-08-27 14:49:39.765 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-08-27 14:49:39.778 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'TestWorkToWallet.Models.Message'
+2024-08-27 14:49:39.778 +03:00 [DBG] Done attempting to bind parameter 'message' of type 'TestWorkToWallet.Models.Message'.
+2024-08-27 14:49:39.778 +03:00 [DBG] Done attempting to bind parameter 'message' of type 'TestWorkToWallet.Models.Message'.
+2024-08-27 14:49:39.778 +03:00 [DBG] Attempting to validate the bound parameter 'message' of type 'TestWorkToWallet.Models.Message' ...
+2024-08-27 14:49:39.785 +03:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'TestWorkToWallet.Models.Message'.
+2024-08-27 14:49:40.212 +03:00 [INF] AddMessage Success
+2024-08-27 14:49:40.220 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-08-27 14:49:40.220 +03:00 [INF] Executed action TestWorkToWallet.Controllers.SenderController.SendMessage (TestWorkToWallet) in 460.5773ms
+2024-08-27 14:49:40.220 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.SenderController.SendMessage (TestWorkToWallet)'
+2024-08-27 14:49:40.221 +03:00 [DBG] Connection ID "18086456104325218311" disconnecting.
+2024-08-27 14:49:40.221 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44332/api/send - 200 null null 468.2788ms
+2024-08-27 14:49:40.223 +03:00 [INF] Received message: {"Content":"qwe","OrderNumber":3,"Timestamp":"2024-08-27T11:49:39.748Z"}
+2024-08-27 14:49:41.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/LastMinuteViewer - null null
+2024-08-27 14:49:41.609 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:41.609 +03:00 [DBG] The request path /LastMinuteViewer does not match a supported file type
+2024-08-27 14:49:41.609 +03:00 [DBG] 1 candidate(s) found for the request path '/LastMinuteViewer'
+2024-08-27 14:49:41.610 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/LastMinuteViewer'
+2024-08-27 14:49:41.610 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:41.611 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:41.611 +03:00 [INF] Route matched with {action = "Index", controller = "LastMinuteViewer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet).
+2024-08-27 14:49:41.611 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:41.612 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:41.612 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:41.612 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:41.612 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:41.613 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:41.613 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:41.614 +03:00 [DBG] View lookup cache hit for view 'Index' in controller 'LastMinuteViewer'.
+2024-08-27 14:49:41.614 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-27 14:49:41.614 +03:00 [DBG] The view path '/Views/LastMinuteViewer/Index.cshtml' was found in 0.5373ms.
+2024-08-27 14:49:41.615 +03:00 [DBG] View lookup cache hit for view '_Layout' in controller 'LastMinuteViewer'.
+2024-08-27 14:49:41.616 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:41.617 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:41.617 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:41.617 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-27 14:49:41.617 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-27 14:49:41.618 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-27 14:49:41.618 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[Sender])
+2024-08-27 14:49:41.618 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Sender and 
+2024-08-27 14:49:41.618 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Sender
+2024-08-27 14:49:41.618 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[RealTimeViewer])
+2024-08-27 14:49:41.618 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /RealTimeViewer and 
+2024-08-27 14:49:41.619 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /RealTimeViewer
+2024-08-27 14:49:41.619 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[],controller=[LastMinuteViewer])
+2024-08-27 14:49:41.619 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /LastMinuteViewer and 
+2024-08-27 14:49:41.619 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /LastMinuteViewer
+2024-08-27 14:49:41.620 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 14:49:41.621 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 14:49:41.622 +03:00 [INF] Executed ViewResult - view Index executed in 8.2459ms.
+2024-08-27 14:49:41.622 +03:00 [INF] Executed action TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet) in 9.7886ms
+2024-08-27 14:49:41.622 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.Index (TestWorkToWallet)'
+2024-08-27 14:49:41.623 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 14:49:41.623 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 14:49:41.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/LastMinuteViewer - 200 null text/html; charset=utf-8 22.1588ms
+2024-08-27 14:49:41.624 +03:00 [DBG] Connection ID "18086456104325218313" disconnecting.
+2024-08-27 14:49:41.628 +03:00 [DBG] Connection ID "18230571309580943363" disconnecting.
+2024-08-27 14:49:41.628 +03:00 [INF] WebSocket connection closed.
+2024-08-27 14:49:41.628 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44332/ws/messages - 101 null null 4691.5694ms
+2024-08-27 14:49:41.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_vs/browserLink - null null
+2024-08-27 14:49:41.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 14:49:41.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.9219ms
+2024-08-27 14:49:41.633 +03:00 [DBG] Connection ID "18230571322465845257" disconnecting.
+2024-08-27 14:49:41.652 +03:00 [DBG] Connection ID "18086456134389989377" disconnecting.
+2024-08-27 14:49:41.652 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1588ms
+2024-08-27 14:49:42.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44332/api/lastminute - null null
+2024-08-27 14:49:42.316 +03:00 [DBG] The request path  does not match the path filter
+2024-08-27 14:49:42.316 +03:00 [DBG] The request path /api/lastminute does not match a supported file type
+2024-08-27 14:49:42.316 +03:00 [DBG] 1 candidate(s) found for the request path '/api/lastminute'
+2024-08-27 14:49:42.316 +03:00 [DBG] Endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.GetLastMinuteMessages (TestWorkToWallet)' with route pattern 'api/lastminute' is valid for the request path '/api/lastminute'
+2024-08-27 14:49:42.316 +03:00 [DBG] Request matched endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.GetLastMinuteMessages (TestWorkToWallet)'
+2024-08-27 14:49:42.316 +03:00 [INF] Executing endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.GetLastMinuteMessages (TestWorkToWallet)'
+2024-08-27 14:49:42.320 +03:00 [INF] Route matched with {action = "GetLastMinuteMessages", controller = "LastMinuteViewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastMinuteMessages() on controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet).
+2024-08-27 14:49:42.320 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 14:49:42.320 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:42.320 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-27 14:49:42.320 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 14:49:42.320 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-27 14:49:42.320 +03:00 [DBG] Executing controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:42.320 +03:00 [DBG] Executed controller factory for controller TestWorkToWallet.Controllers.LastMinuteViewerController (TestWorkToWallet)
+2024-08-27 14:49:42.343 +03:00 [INF] GetMessagesAsync Success
+2024-08-27 14:49:42.347 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-08-27 14:49:42.348 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-27 14:49:42.349 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-27 14:49:42.349 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-27 14:49:42.349 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-27 14:49:42.349 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestWorkToWallet.Models.Message, TestWorkToWallet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-27 14:49:42.362 +03:00 [INF] Executed action TestWorkToWallet.Controllers.LastMinuteViewerController.GetLastMinuteMessages (TestWorkToWallet) in 41.9203ms
+2024-08-27 14:49:42.362 +03:00 [INF] Executed endpoint 'TestWorkToWallet.Controllers.LastMinuteViewerController.GetLastMinuteMessages (TestWorkToWallet)'
+2024-08-27 14:49:42.362 +03:00 [DBG] Connection ID "17942340924839297029" disconnecting.
+2024-08-27 14:49:42.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44332/api/lastminute - 200 null application/json; charset=utf-8 46.8874ms

@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to TestWorkToWallet</h1>
+    <p>Text about this app.</p>
+
+    <div id="homeDiv">
+        <p>
+            Start by checking the LastMinuteViewer page. When you click the button, it should display the message: "No messages found in the last 10 minutes."
+        </p>
+        </br>
+        <p>
+            The LastMinuteInterval is set to 10 minutes, as specified in the appsettings.json configuration file, and this interval is also displayed on the client side.
+        </p>
+        </br>
+        <p>
+            Open two separate browser windows: one for the Sender page and another for the RealTimeViewer page.
+        </p>
+        </br>
+        <p>
+            On the Sender page, there are two fields and a button to send a message.
+        </p>
+        </br>
+        <p>
+            Before sending, the client validates the message length and the associated number.
+        </p>
+        </br>
+
+        <p>
+            The server performs the same checks and additionally verifies the message for SQL injection attempts.
+        </p>
+    </div>
+
+
+</div>
