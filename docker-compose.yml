@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  testworktowallet:
+    image: ${DOCKER_REGISTRY-}testworktowallet
+    build:
+      context: .
+      dockerfile: TestWorkToWallet\Dockerfile
+
+# version: '3.8'
+
+# services:
+#   testworktowallet:
+#     image: testworktowallet:windows-amd64-10.0.22631
+#     # image: testworktowallet:latest
+#     build:
+#       context: .
+#       dockerfile: TestWorkToWallet/Dockerfile
+#     ports:
+#       - "8080:80"
+#     environment:
+#       - ASPNETCORE_ENVIRONMENT=Production
+#       - ConnectionStrings__DefaultConnection=Host=database;Port=5432;Database=Test;Username=postgres;Password=123456789
+#     depends_on:
+#       - database
+
+#   database:
+#     image: postgres:latest
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: 123456789
+#       POSTGRES_DB: Test
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       - dbdata:/var/lib/postgresql/data
+
+# volumes:
+#   dbdata:
+
+

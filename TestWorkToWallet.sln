@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWorkToWallet", "TestWorkToWallet\TestWorkToWallet.csproj", "{7346614F-40BB-48DF-973B-D0659C9FAC7E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D2BE3FF1-546A-4E95-AFAF-9B81816B4F5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7346614F-40BB-48DF-973B-D0659C9FAC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7346614F-40BB-48DF-973B-D0659C9FAC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7346614F-40BB-48DF-973B-D0659C9FAC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7346614F-40BB-48DF-973B-D0659C9FAC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BE3FF1-546A-4E95-AFAF-9B81816B4F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BE3FF1-546A-4E95-AFAF-9B81816B4F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BE3FF1-546A-4E95-AFAF-9B81816B4F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BE3FF1-546A-4E95-AFAF-9B81816B4F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD741D3B-58C1-4C94-8EA3-882FBE1593BF}
+	EndGlobalSection
+EndGlobal
